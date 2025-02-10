@@ -1,0 +1,71 @@
+body{
+    background: darkcyan;
+}
+#box{
+    /* border: 1px solid; */
+    margin: 1px auto;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    width: 70vw;
+    height: 80vh;
+    gap: 5px;
+}
+h1{
+    gap: 5px;
+}
+#output{
+    /* border: 1px solid; */
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    flex-flow: row wrap;
+}
+
+.hours{
+    width: 10%;
+    text-align: center;
+    font-family: sans-serif;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+}
+.studies{
+    width: 89%;
+    background: rgb(255 255 0 / 70%);
+    border-radius: 15px;
+    text-align: center;
+    font-family: fantasy;
+}
+.rests{
+    width: 89%;
+    text-align: center;
+    font-family: system-ui;
+    background: rgb(0 236 255 / 70%);
+    border-radius: 15px;
+}
+#settingsInput{
+    background: rgba(0, 0, 0, 0.2);
+    border: 5px solid darkturquoise;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+#settingsInput::placeholder{
+    color: rgb(201, 201, 201);
+}
+#submitButton{
+    cursor: pointer;
+    width: 8vw;
+    height: 5vh;
+    border: 1px solid rgb(26 26 26);
+    background: rgb(26 26 26);
+    border-radius: 20px;
+    font-size: 7px;
+    color: rgb(4 245 226);
+}
+
+#lowerGap{
+    width: 100%;
+    height: 10vh;
+}
